@@ -28,7 +28,7 @@ public class Fornecedor implements InterfaceModel {
 	@Column(name = "contato", length = 45, nullable = false)
 	private String contato;
 
-	@OneToMany(mappedBy = "fornecedor")
+	@OneToMany( mappedBy = "fornecedor")
 	Set<FornecedorHasProduto> fornecedorHasProduto;
 
 	

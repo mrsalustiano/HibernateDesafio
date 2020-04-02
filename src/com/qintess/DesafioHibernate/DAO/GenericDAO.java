@@ -55,6 +55,7 @@ public class GenericDAO<T extends InterfaceModel> {
 			session.remove(t);
 			session.getTransaction().commit();
 		}catch (Exception e) {
+			
 			session.getTransaction().rollback();
 		}
 	}
