@@ -219,10 +219,11 @@ public class App {
 		// mostra a venda
 			
 		System.out.println(venda1);
-
+	
 
 	}
 
+	
 	
 
 	
